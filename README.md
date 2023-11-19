@@ -56,16 +56,24 @@ Copy the information below ↓
 
 <h3>Download WireShark on Windows 11 Virtual Machine</h3>
 
-  * On the virtual machine type <a href=https://www.wireshark.org/download.html> Wireshark Download </a> on the edge browser
+  * Within the virtual machine type <a href=https://www.wireshark.org/download.html> Wireshark Download </a> on the edge browser
   * Install Windows x64 Installer on default settings
   * Click I agree
   * Finish
+  * Open it and click on Ethernet
 
 
 ![Step 9 vpn](https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/b838e296-f61f-4d90-8b2f-25895b7c185d)
 
+![Step 10 vpn](https://github.com/Archie735/osTicket-Perquisites-and-Installation/assets/150314129/32d7c727-91c4-4aa5-9c41-42c566be5526)
+
+
+<h3>Open PowerShell within the Windows 11 Virtual Machine</h3>
 
 <h3 align="center"><ins>Observe ICMP Traffic</ins></h3>
+- On Wireshark filter for ICMP traffic only
+- Retrieve or copy the private IP address of the Ubuntu virtual machine
+- On PowerShell type ping "paste the private IP address"
 
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
