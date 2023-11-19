@@ -41,14 +41,12 @@ Copy the information below ↓
 
     
 
-![Step 3 vpn](https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/4037d684-4375-4f25-9e87-96799e5543b0)
 
+<img src=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/4037d684-4375-4f25-9e87-96799e5543b0 width="600" height="400" id="Step 3" alt="">
 
-![Step 4 vpn](https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/4afff7b8-33ad-423a-afc7-0994bfbd3593)
+<img src=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/4afff7b8-33ad-423a-afc7-0994bfbd3593 width="600" height="400" id="Step 4" alt="">
 
-
-![Step 5 vpn](https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/6c7d73bf-1d97-46c0-ac61-b25dc5a8d3f3)
-
+<img src=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/6c7d73bf-1d97-46c0-ac61-b25dc5a8d3f3 width="600" height="400" id="Step 5" alt="">
 
 * You can modify the resource group, virtual machine name, region, username, and password to your liking ;)
 
@@ -63,9 +61,9 @@ Copy the information below ↓
   * Open it and click on Ethernet
 
 
-![Step 9 vpn](https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/b838e296-f61f-4d90-8b2f-25895b7c185d)
+<img src=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/b838e296-f61f-4d90-8b2f-25895b7c185d width="600" height="400" id="Step 9" alt="">
 
-![Step 10 vpn](https://github.com/Archie735/osTicket-Perquisites-and-Installation/assets/150314129/32d7c727-91c4-4aa5-9c41-42c566be5526)
+<img src=https://github.com/Archie735/osTicket-Perquisites-and-Installation/assets/150314129/32d7c727-91c4-4aa5-9c41-42c566be5526 width="600" height="400" id="Step 10" alt="">
 
 
 <h3>Open PowerShell within the Windows 11 Virtual Machine</h3>
