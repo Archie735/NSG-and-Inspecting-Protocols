@@ -50,6 +50,8 @@ Copy the information below ↓
 ![Step 5 vpn](https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/6c7d73bf-1d97-46c0-ac61-b25dc5a8d3f3)
 
 
+* You can modify the resource group, virtual machine name, region, username, and password to your liking ;)
+
 <h3>Connect to Windows 11 through Remote Desktop Connect</h3>
 
 <h3>Download WireShark on Windows 11 Virtual Machine</h3>
@@ -63,3 +65,12 @@ Copy the information below ↓
 ![Step 9 vpn](https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/assets/150314129/b838e296-f61f-4d90-8b2f-25895b7c185d)
 
 
+<h3 align="center"><ins>Observe ICMP Traffic</ins></h3>
+
+<h3 align="center"><ins>Observe SSH Traffic</ins></h3>
+
+<h3 align="center"><ins>Observe DHCP Traffic</ins></h3>
+
+<h3 align="center"><ins>Observe DNS Traffic</ins></h3>
+
+<h3 align="center"><ins>Observe RDP Traffic</ins></h3>
