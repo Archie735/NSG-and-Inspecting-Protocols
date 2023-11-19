@@ -23,7 +23,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Prequisite</h2>
 * Complete <a href=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/blob/main/README.md> Windows 11 </a> virtual machine first before creating Ubuntu Server
 
-<h3>Create a Linux Virtual Machine</h3>
+<h3>1. Create a Linux Virtual Machine</h3>
 Search for Virtual Machine then Create "Azure Virtual Machine"
 Copy the information below ↓
 
@@ -50,9 +50,9 @@ Copy the information below ↓
 
 * You can modify the resource group, virtual machine name, region, username, and password to your liking ;)
 
-<h3>Connect to Windows 11 through Remote Desktop Connect</h3>
+<h3>2. Connect to Windows 11 through Remote Desktop Connect</h3>
 
-<h3>Download WireShark on Windows 11 Virtual Machine</h3>
+<h3>3. Download WireShark on Windows 11 Virtual Machine</h3>
 
   * Within the virtual machine type <a href=https://www.wireshark.org/download.html> Wireshark Download </a> on the edge browser
   * Install Windows x64 Installer on default settings
@@ -66,7 +66,7 @@ Copy the information below ↓
 <img src=https://github.com/Archie735/osTicket-Perquisites-and-Installation/assets/150314129/32d7c727-91c4-4aa5-9c41-42c566be5526 width="600" height="400" id="Step 10" alt="">
 
 
-<h3>Open PowerShell within the Windows 11 Virtual Machine</h3>
+<h3>4. Open PowerShell within the Windows 11 Virtual Machine</h3>
 
 <h3 align="center"><ins>Observe ICMP Traffic</ins></h3>
 
@@ -78,8 +78,20 @@ Copy the information below ↓
 
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
+- On Wireshark, filter for SSH traffic only
+- Retrieve or copy the private IP address of the Ubuntu virtual machine
+- On PowerShell type SSH "Private IP address"
+
 <h3 align="center"><ins>Observe DHCP Traffic</ins></h3>
 
+- On Wireshark, filter for DHCP traffic only
+- Retrieve or copy the private IP address of the Ubuntu virtual machine
+- On PowerShell 
+
 <h3 align="center"><ins>Observe DNS Traffic</ins></h3>
+
+- On Wireshark, filter for DNS traffic only
+- On PowerShell use nslookup to see public IP addresses such as www.yahoo.com
+  - Observe DNS traffic on WireShark
 
 <h3 align="center"><ins>Observe RDP Traffic</ins></h3>
