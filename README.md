@@ -71,9 +71,12 @@ Copy the information below ↓
 <h3>Open PowerShell within the Windows 11 Virtual Machine</h3>
 
 <h3 align="center"><ins>Observe ICMP Traffic</ins></h3>
+
 - On Wireshark filter for ICMP traffic only
 - Retrieve or copy the private IP address of the Ubuntu virtual machine
-- On PowerShell type ping "paste the private IP address"
+- On PowerShell type ping "Private IP address"
+   - Observe ping requests and replies on WireShark
+ - ping a public website such as www.amazon.com and observe
 
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
