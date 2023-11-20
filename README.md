@@ -107,7 +107,7 @@ Copy the information below ↓
 - Save and go back to the Winterwonderland virtual machine
     - Refresh and Observe the traffic on WireShark no longer receiving replies
 
-<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/14e5698a-edc0-4ec8-af1e-a351f73c076c width="700" height="auto" id="icmp" alt="">
+<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/14e5698a-edc0-4ec8-af1e-a351f73c076c width="700" height="700" id="icmp" alt="">
 
 - To receive replies again
   - Delete the rule OR
@@ -119,20 +119,35 @@ Copy the information below ↓
 
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
-- On Wireshark, filter for SSH traffic only
+- On Wireshark, refresh and filter for SSH traffic only
 - Retrieve or copy the private IP address of the Ubuntu virtual machine
-- On PowerShell type SSH "Private IP address"
+- On PowerShell type SSH Summerfield@"Private IP address"
+- If you get the message " Are you sure you want to continue connecting (yes/no/fingerprint)? type yes
+- Type in the password Summerfestival2 (The password is invisible but you can still type it)
+
+<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/b3a0871a-f97c-4f66-8f10-e298cfecf956 width="700" height="auto" id="icmp" alt="">
+
+<h4 align="right"><ins>Linux commands</ins></h4>
+
+- df------> to show how much free disk space was used
+- man ------> the manual (type man man)
+- dig -----> similar to nslookup in Windows letting you look up a DNS server for a particular domain
+- ifconfig -----> allows to configure ethernet interfaces
 
 <h3 align="center"><ins>Observe DHCP Traffic</ins></h3>
 
-- On Wireshark, filter for DHCP traffic only
-- Retrieve or copy the private IP address of the Ubuntu virtual machine
-- On PowerShell 
+- On Wireshark, refresh and filter for DHCP traffic only
+- On PowerShell type ipconfig /renew
+- This is to get a new IP address for Winterwonderland
+  -Observe on Wireshark
 
 <h3 align="center"><ins>Observe DNS Traffic</ins></h3>
 
-- On Wireshark, filter for DNS traffic only
+- On Wireshark, refresh and filter for DNS traffic only
 - On PowerShell use nslookup to see public IP addresses such as www.yahoo.com
   - Observe DNS traffic on WireShark
 
 <h3 align="center"><ins>Observe RDP Traffic</ins></h3>
+
+- On Wireshark, refresh and filter only for tcp.port == 3389
+- The reason that it is nonstop is because it records traffic live from one computer to the other
