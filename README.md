@@ -76,6 +76,8 @@ Copy the information below ↓
    - Observe ping requests and replies on WireShark
  - ping a public website such as www.amazon.com and observe
 
+<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/b7712e2b-5b85-420b-ac14-acd72e6617e3 width="700" height="auto" id="icmp" alt="">
+
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
 - On Wireshark, filter for SSH traffic only
