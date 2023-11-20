@@ -78,6 +78,16 @@ Copy the information below ↓
 
 <img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/b7712e2b-5b85-420b-ac14-acd72e6617e3 width="700" height="auto" id="icmp" alt="">
 
+<h3 align="center"><ins>Observe ICMP Traffic (perpetual ping) </ins></h3>
+
+- On Wireshark filter for ICMP traffic only
+- Retrieve or copy the private address of the Ubuntu virtual machine
+- On PowerShell type ping "Private IP address" -t
+  - Observe constant pinging
+- Back in Azure search for Network Security group
+
+<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/b7712e2b-5b85-420b-ac14-acd72e6617e3 width="700" height="auto" id="icmp" alt="">
+
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
 - On Wireshark, filter for SSH traffic only
