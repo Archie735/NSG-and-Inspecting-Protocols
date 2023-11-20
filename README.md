@@ -78,15 +78,36 @@ Copy the information below ↓
 
 <img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/b7712e2b-5b85-420b-ac14-acd72e6617e3 width="700" height="auto" id="icmp" alt="">
 
-<h3 align="center"><ins>Observe ICMP Traffic (perpetual ping) </ins></h3>
+<h3 align="center"><ins>Observe ICMP Traffic (perpetual ping and NSG) </ins></h3>
 
 - On Wireshark filter for ICMP traffic only
 - Retrieve or copy the private address of the Ubuntu virtual machine
 - On PowerShell type ping "Private IP address" -t
   - Observe constant pinging
-- Back in Azure search for Network Security group
 
-<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/b7712e2b-5b85-420b-ac14-acd72e6617e3 width="700" height="auto" id="icmp" alt="">
+<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/66453638-6291-4c5c-9e4b-5cde1cc97d15 width="700" height="auto" id="icmp" alt="">
+
+- Back in Azure search for Network Security Group and click on "Summer"
+- Under settings click on the inbound security rules and then add to create a new rule
+- The goal is to stop traffic between Winterwonderland and Summerfield
+
+          Source: IP Addresses
+          Source IP addresses/CIDR ranges: (Winterwonderland's private IP address)
+          Source port/ranges: *
+          Destination: Any
+          Service: Custom
+          Destination port ranges: *
+          Protocol: ICMP
+          Action: Deny
+          Priority: (must be a number less than the smallest priority to take effect)
+
+  <img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/538ec08a-c088-4af1-8873-9353f3fe0a19 width="700" height="auto" id="icmp" alt="">
+
+  
+  - Save and go back to the Winterwonderland virtual machine
+    - Refresh and Observe the traffic no longer receiving replies
+
+<img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/14e5698a-edc0-4ec8-af1e-a351f73c076c width="700" height="auto" id="icmp" alt="">
 
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
