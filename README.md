@@ -103,11 +103,19 @@ Copy the information below ↓
 
   <img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/538ec08a-c088-4af1-8873-9353f3fe0a19 width="700" height="auto" id="icmp" alt="">
 
-  
-  - Save and go back to the Winterwonderland virtual machine
-    - Refresh and Observe the traffic no longer receiving replies
+
+- Save and go back to the Winterwonderland virtual machine
+    - Refresh and Observe the traffic on WireShark no longer receiving replies
 
 <img src=https://github.com/Archie735/NSG-and-Inspecting-Protocols/assets/150314129/14e5698a-edc0-4ec8-af1e-a351f73c076c width="700" height="auto" id="icmp" alt="">
+
+- To receive replies again
+  - Delete the rule OR
+  - Change the rule to allow
+  - Make sure to refresh Wireshark
+ 
+- To stop perpetual ping, on PowerShell press control C on your keyboard
+ 
 
 <h3 align="center"><ins>Observe SSH Traffic</ins></h3>
 
