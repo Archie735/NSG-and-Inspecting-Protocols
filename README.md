@@ -21,10 +21,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Ubuntu Server 
 
 <h2>Prequisite</h2>
-* Complete <a href=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/blob/main/README.md> Windows 11 </a> virtual machine first before creating Ubuntu Server. (In this case, the first virtual machine will be Winterland.)
+* Complete <a href=https://github.com/Archie735/How-to-Create-a-Windows-11-Virtual-Machine/blob/main/README.md> Windows 11 </a> virtual machine first before creating Ubuntu Server. (In this case, the first virtual machine will be Winterland❄️.)
 
 <h3>1. Create a Linux Virtual Machine</h3>
-Search for Virtual Machine then Create "Azure Virtual Machine"
+Search for Virtual Machine then Create "Azure Virtual Machine" ☀️
 Copy the information below ↓
 
     Subscription: Azure subscription 1
